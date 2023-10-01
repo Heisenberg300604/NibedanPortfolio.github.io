@@ -1,0 +1,171 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color:rgb(1, 0, 40);
+    color: white;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    height: 70px;
+    background-color: rgb(4, 2, 74);
+}
+.logo{
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    margin: 14px 5px;
+    padding: 8px 15px;
+}
+
+a,li,button{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+.links{
+   display: flex;
+}
+
+li{
+    padding: 15px 40px;
+    font-size: 1.3rem;
+}
+.btn{
+    background-color: rgb(22, 28, 137);
+    border: 2px solid rgb(2, 16, 85);
+    border-radius: 24px;
+    padding: 10px 17px;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+li a:hover{
+    background-color: rgb(30, 87, 157);
+    color: lavender;
+    border-radius: 10px;
+    font-size: 1.4rem;
+}
+
+.btn:hover{
+    background-color: rgb(33, 33, 98);
+}
+
+.firstsection{
+    font-weight: bold;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 120px 0px;
+}
+
+.firstsection >div{
+    width: 30%;
+}
+
+.rightsection img{
+    width: 85%;
+}
+
+.leftsection{
+    /*margin: 80px 0px;*/
+    font-size: 2.5rem;
+    width: 40%;
+}
+
+.name{
+    color: rgb(170, 107, 228);
+}
+
+#element{
+    color: rgb(170, 107, 228)
+}
+.secondsection{
+    max-width: 80vw;
+    margin: auto;
+}
+hr.hr1 { 
+    border: 0;
+    border-top: 2px solid cornflowerblue;
+    margin: 40px 80px;
+}
+.secondsection h1{
+    font-size: 2.5rem;
+    align-items: center;
+    text-align: center;
+    padding: 30px 0px;
+}
+.firstproject{
+    display: flex;
+    width: 80vw;
+    align-items: center;
+    text-align: left;
+}
+
+.img1{
+    height: 450px;
+    width: 810px;
+}
+
+.headingp1 h1{
+    padding: 52px 30px;
+}
+
+.project1p1{
+    /*align-items: center;*/
+    text-align: center;
+    padding: 0px 30px;
+    font-size: 18px;
+}
+button.Project1link{
+    background-color: blueviolet;
+    padding: 20px 20px;
+    margin: 15px 118px;
+    align-items: center;
+    border-radius: 20px;
+    font-size: 1.1rem;
+}
+.secondproject{
+    display: flex;
+    width: 80vw;
+    align-items: center;
+    text-align: left;
+    margin: 40px 0px;
+}
+
+.footer-portfolio{
+    height: 80px;
+    background-color: #0a0e23;
+    text-align: center;
+}
+
+.ending{
+    font-size: 25px;
+    /*margin: 42px 625px;*/
+}
+.copyright{
+    align-items: flex-end;
+    font-size: 14px;
+    margin: 20px 0px;
+}
+.btn1{
+    padding: 12px 23px;
+    background-color: cornflowerblue;
+    font-size: 1.3rem;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.btn1:hover{
+    background-color: rgb(45, 110, 231);
+}
+.buttons{
+    margin: 10px 0px;
+}
